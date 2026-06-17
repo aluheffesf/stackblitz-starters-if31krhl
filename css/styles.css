@@ -254,3 +254,19 @@ h1 {
 }
 
 /* el titulo del pais ocupa las dos columnas*/
+.pais {
+  grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+/* las fotos se acomodan una al lado de la otra automaticamente (50% cada una) */
+.foto {
+  min-height: 120px; /* espacio para la imagen*/
+  padding: 35px 10px 10px 10px ;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+
