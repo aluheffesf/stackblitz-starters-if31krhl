@@ -270,3 +270,15 @@ h1 {
   border-bottom: 2px solid #000;
 }
 
+/* borde vertical divisor solo en la primera foto */
+.foto:nth-of-type(odd) {
+  border-right: 2px solid #000;
+}
+
+/* la reseña se salta al fondo ocupando las dos columnas */
+.resenia {
+  grid-column: span 2;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 11px;
+}
