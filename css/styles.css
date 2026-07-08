@@ -237,6 +237,7 @@ h1 {
   border: 2px solid #000;
   width: 100%;
 }
+
 /* columna izquierda: continente ocupara todo el alto disponible latinoamericano */
 .continente {
   border-right: 2px solid #000;
@@ -244,11 +245,14 @@ h1 {
   font-weight: bold;
   font-size: 14px;
 }
+
 /* Columna Derecha: Se convierte en otro Grid para organizar el contenido interno */
 .paises {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Dividido en 2 columnas para las fotos */
+  grid-template-columns: 1fr 1fr;
+  /* Dividido en 2 columnas para las fotos */
 }
+
 /* El título del País ocupa las dos columnas */
 .pais {
   grid-column: span 2;
@@ -260,7 +264,8 @@ h1 {
 
 /* Las fotos se acomodan una al lado de la otra automáticamente (50% cada una) */
 .foto {
-  min-height: 120px; /* Espacio para la imagen */
+  min-height: 120px;
+  /* Espacio para la imagen */
   padding: 35px 10px 10px 10px;
   font-size: 11px;
   border-bottom: 2px solid #000000;
@@ -278,11 +283,13 @@ h1 {
   min-height: 80px;
   font-size: 11px;
 }
+
 /*datos de campeones*/
-.paises .foto img{
+.paises .foto img {
   width: 100%;
 }
-.resenia p{
+
+.resenia p {
   font-size: 16px;
 }
 
@@ -292,18 +299,20 @@ h1 {
   height: 400px;
   float: left;
   background-color: aqua;
-padding: 25px;
-}
-#formulario input{
-  width: 100%;
-}
-#formulario label {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-font-size: 20px;
+  padding: 25px;
 }
 
-#formulario h2{
+#formulario input {
+  width: 100%;
+}
+
+#formulario label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+#formulario h2 {
   text-align: center;
-  text-shadow:2px 2px 4px #555 ;
+  text-shadow: 2px 2px 4px #555;
   font-size: 40px;
 }
